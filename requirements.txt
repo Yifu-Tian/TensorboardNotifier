@@ -1,0 +1,11 @@
+# HTTP 请求库，用于 Server酱推送
+requests>=2.20.0
+
+# 图片处理，用于拼接和缩放 Loss 曲线图
+Pillow>=8.0.0
+
+# 绘图，用于生成 Loss 曲线图像
+matplotlib>=3.3.0
+
+# TensorBoard 日志读取，用于解析事件文件
+tensorboard>=2.4.0
