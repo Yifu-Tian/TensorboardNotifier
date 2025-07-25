@@ -26,10 +26,11 @@ your-project/
 │   ├── ...
 ├── setup.py
 ├── README.md
+├── requirements.txt
 ```
 3. 切换到train_notifier目录下安装
 ```
-cd train_notifier/ && pip install -e .
+cd train_notifier/ && pip install -r requirements.txt && pip install -e .
 ```
 4. 如果有训练入口脚本, 需要在脚本中调用(否则在训练循环脚本中添加)
 
