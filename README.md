@@ -3,15 +3,16 @@
 **Tensorboard Notifier** 是一个基于 **TensorBoard 日志** 的训练监控工具，能够自动提取 Loss 曲线，并通过 **Server酱 API** 将 Loss 曲线图像和最新指标实时推送到微信端。  
 
 在深度学习训练时，模型往往需要几个小时甚至几天才能收敛, 传统的做法是打开 TensorBoard 或控制台，不断查看 Loss 是否下降🤯
+
 **Tensorboard Notifier** 的设计初衷是让你不用时刻守在电脑前🤩
 - 它会自动收集训练的最新 Loss 曲线;
 - 定期生成图片并通过 **Server酱** API推送到你的微信;
 - 让你在手机上实时查看模型训练状态，省时且高效
 有了它，你不必再守在电脑前盯着终端或 TensorBoard，训练过程中可以去喝一杯咖啡 ☕，也不会错过模型的收敛趋势😋
+<p align="center">
+<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/6d382528-ce4e-488d-87a5-b7b0c3e2a8cd" />
+</p>
 
-<img width="200" height="500" alt="image" src="https://github.com/user-attachments/assets/6d382528-ce4e-488d-87a5-b7b0c3e2a8cd" />
-
----
 ## Quick Start
 
 1. Download ZIP
