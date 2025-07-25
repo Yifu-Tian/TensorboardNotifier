@@ -63,3 +63,5 @@ def train(self, num_epochs: int, save_ckpt_epoch: int = None, notifier=None):
 ## 获取API Key
 You can get your API [here](https://sct.ftqq.com/sendkey).
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
